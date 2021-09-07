@@ -1089,7 +1089,7 @@ Update Loaded Variant
     product = shopify.Product.find(632910392)
     variant = self.product.variants[0]
     variant.price = "0.50"
-    variant.save
+    variant.save()
 
 Add Variant to Product
 
